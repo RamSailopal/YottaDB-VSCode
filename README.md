@@ -1,3 +1,26 @@
 # Background
 
 This repo help YottaDB developers better develop routines from within Visual Code Studio. Each save of a routine file from within Visual Code studio will cause the routine to load and compile within YottaDB
+
+# Requirements
+
+Visual Code Studio - https://code.visualstudio.com/
+
+Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemName=pucelle.run-on-save
+
+# Setup
+
+1) Install VSCode
+2) Add the **Remote SSH** extension - File - Preferences - Extensions - Remote SSH
+3) Once installed, a green button should appear to the bottom left of the VSCode window labelled **Open a Remote Window** Click on this and select **Connect to Host**
+4) Select **Add New SSH Host**
+5) Enter **ssh username@192.168.240.1 -A** Where username is the username under which yottadb was installed and 192.168.240.1 is the IP address of the server running YottaDB
+6) A pop up box should appear titled **Host added!** Click **Connect**
+7) Select **Linux** as the platform for the remote host and then proceed to enter the password
+8) Once connected, you should be able to **Open Folder** and navigate to the **.yottadb** folder in the user's home directory.
+9) Naviagate to the routines directory for the YottaDB installation e.g. **/root/.yottadb/r1.30_x86_64/r**
+10) You should then be able to see the routines list and be able to double click for editting
+11) One server running YottaDB, add the ydbcompil executable file and allow it to be access via the system path i.e. move the file to **/usr/local/bin**
+12) Back in VSCode Studio Click File - Preferences and Extensions and add **Run On Save** by **pucelle** (Please note that there are number of extensions with the same name. Take time to add the correct one)
+13) On the YottaDB server, navigate to the user's home directory and navigate further into the 
+
