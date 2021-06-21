@@ -22,5 +22,12 @@ Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemNa
 10) You should then be able to see the routines list and be able to double click for editting
 11) One server running YottaDB, add the ydbcompil executable file and allow it to be access via the system path i.e. move the file to **/usr/local/bin**
 12) Back in VSCode Studio Click File - Preferences and Extensions and add **Run On Save** by **pucelle** (Please note that there are number of extensions with the same name. Take time to add the correct one)
-13) On the YottaDB server, navigate to the user's home directory and navigate further into the 
+13) Click on the cog icon for the extension and then **Extension Settings**
+14) Click **Edit in settings.json**
+15) Copy and paste the text from https://raw.githubusercontent.com/RamSailopal/YottaDB-VSCode/main/settings.json
+16) Save the file
+
+A terminal will now open at the bottom of a code edit window and when a routine is amended and saved, the ydbcompil executable will automatically run to compile the code within YottaDB. Any compilation errors will show in the terminal window.
+
+
 
