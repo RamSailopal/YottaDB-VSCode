@@ -31,5 +31,10 @@ Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemNa
 
 A terminal will now open at the bottom of a code edit window and when a routine is amended and saved, the ydbcompil executable will automatically run to compile the code within YottaDB. Any compilation errors will show in the terminal window.
 
+# Additional Optional Setup
+
+**The M/MUMPS/Cache language syntax highlighting and basic formatting** extension by **David Silin** can also by added following the same procedure as above to add syntax highlighting when editting routines.
+
+https://marketplace.visualstudio.com/items?itemName=dsilin.mumps
 
 
