@@ -20,7 +20,7 @@ Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemNa
 6) A pop up box should appear titled **Host added!** Click **Connect**
 7) Select **Linux** as the platform for the remote host and then proceed to enter the password
 8) Once connected, you should be able to **Open Folder** and navigate to the **.yottadb** folder in the user's home directory.
-9) Naviagate to the routines directory for the YottaDB installation e.g. **/root/.yottadb/r1.30_x86_64/r**
+9) Navigate to the routines directory for the YottaDB installation e.g. **/root/.yottadb/r1.30_x86_64/r**
 10) You should then be able to see the routines list and be able to double click for editting
 11) One server running YottaDB, add the ydbcompil executable file and allow it to be access via the system path i.e. move the file to **/usr/local/bin**
 12) Back in VSCode Studio Click File - Preferences and Extensions and add **Run On Save** by **pucelle** (Please note that there are number of extensions with the same name. Take time to add the correct one)
