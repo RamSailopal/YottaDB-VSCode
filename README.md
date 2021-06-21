@@ -33,7 +33,7 @@ A terminal will now open at the bottom of a code edit window and when a routine 
 
 # Additional Optional Setup
 
-**The M/MUMPS/Cache language syntax highlighting and basic formatting** extension by **David Silin** can also by added following the same procedure as above to add syntax highlighting when editting routines.
+**The M/MUMPS/Cache language syntax highlighting and basic formatting** extension by **David Silin** can also by added by following the same procedure as above to add syntax highlighting when editting routines.
 
 https://marketplace.visualstudio.com/items?itemName=dsilin.mumps
 
