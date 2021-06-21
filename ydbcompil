@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ "$1" == "" ]]
+then
+	echo "Please enter a routine to compile"
+        exit
+fi
+filpre="${1%%.m}"
+ydb <<< "ZL \"${filpre}\""

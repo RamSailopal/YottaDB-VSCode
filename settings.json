@@ -1,0 +1,9 @@
+{
+    "runOnSave.commands": [
+        {
+            "match": ".*\\.m$",
+            "command": "ydbcompil '${fileBasenameNoExtension}'",
+            "runIn": "terminal"
+        }
+    ]
+}
