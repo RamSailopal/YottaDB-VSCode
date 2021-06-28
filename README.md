@@ -26,7 +26,7 @@ Remote SSH extension - https://marketplace.visualstudio.com/items?itemName=ms-vs
 8) Once connected, you should be able to **Open Folder** and navigate to the **.yottadb** folder in the user's home directory.
 9) Navigate to the routines directory for the YottaDB installation e.g. **/root/.yottadb/r1.30_x86_64/r**
 10) You should then be able to see the YottaDB routines listed and be able to double click a routine for editting
-11) On the server running YottaDB, add the ydbcompil executable file and allow it to be accessed via the system path i.e. move the file to **/usr/local/bin** Ensure that ydb is also accessable via the system path i.e. ** ln -s /usr/local/yottadb/ydb /usr/local/bin/ydb**
+11) On the server running YottaDB, add the ydbcompil executable file and allow it to be accessed via the system path i.e. move the file to **/usr/local/bin** Ensure that ydb is also accessable via the system path i.e. **ln -s /usr/local/yottadb/ydb /usr/local/bin/ydb**
 12) Back in VSCode Studio, Click File - Preferences - Extensions and add **Run On Save** by **pucelle** (Please note that there are a number of extensions with the same name. Take time to add the correct one)
 13) Click on the cog icon for the extension and then **Extension Settings**
 14) Click **Edit in settings.json**
