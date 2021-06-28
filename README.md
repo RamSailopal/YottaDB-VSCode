@@ -8,7 +8,11 @@ This repo help YottaDB developers better develop routines from within Visual Cod
 
 Visual Code Studio - https://code.visualstudio.com/
 
+# Extensions utilised
+
 Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemName=pucelle.run-on-save
+
+Remote SSH extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
 
 # Setup
 
