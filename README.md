@@ -6,13 +6,13 @@ This repo helps YottaDB developers better develop routines from within Visual Co
 
 # Requirements
 
-Visual Code Studio - https://code.visualstudio.com/
+[Visual Code Studio](https://code.visualstudio.com/)
 
 # Extensions utilised
 
-Run On Save VSCode extension - https://marketplace.visualstudio.com/items?itemName=pucelle.run-on-save
+[Code Runner VSCode extension](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 
-Remote SSH extension - https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
+[Remote SSH extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 # Setup
 
@@ -30,10 +30,8 @@ Remote SSH extension - https://marketplace.visualstudio.com/items?itemName=ms-vs
 12) Back in VSCode Studio, Click File - Preferences - Extensions and add **Run On Save** by **pucelle** (Please note that there are a number of extensions with the same name. Take time to add the correct one)
 13) Click on the cog icon for the extension and then **Extension Settings**
 14) Click **Edit in settings.json**
-15) Copy and paste the text from https://raw.githubusercontent.com/RamSailopal/YottaDB-VSCode/main/settings.json
-16) Save the file
-
-A terminal will now open at the bottom of a code edit window and when a routine is amended and saved, the ydbcompil executable will automatically run to compile the code within YottaDB. Any compilation errors will show in the terminal window.
+15) Copy and paste the text from [here](https://raw.githubusercontent.com/RamSailopal/YottaDB-VSCode/main/settings.json)
+16) Click on the play icon on the top right hand side of the code window. This will compile the YottaDB mumps code. The ydbcompil executable will automatically run to compile the code Any compilation errors will show in the terminal window.
 
 # Additional Optional Setup
 
