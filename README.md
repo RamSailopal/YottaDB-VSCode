@@ -31,7 +31,28 @@ This repo helps YottaDB developers better develop routines from within Visual Co
 13) Click on the cog icon for the extension and then **Extension Settings**
 14) Click **Edit in settings.json**
 15) Copy and paste the text from [here](https://raw.githubusercontent.com/RamSailopal/YottaDB-VSCode/main/settings.json)
-16) Click on the play icon on the top right hand side of the code window. This will compile the YottaDB mumps code. The ydbcompil executable will automatically run to compile the code Any compilation errors will show in the terminal window.
+
+    The key entries are the ones below:
+
+        "code-runner.executorMap": {
+    
+            "mumps": "ydbcompil '$fileNameWithoutExt'"
+    
+        },
+    
+        "code-runner.executorMapByFileExtension": {
+    
+            ".m": "ydbcompil '$fileNameWithoutExt'"
+    
+        },
+    
+        "files.associations": {
+    
+           "*.m": "mumps"
+    
+        }
+    
+17) Click on the play icon on the top right hand side of the code window. This will compile the YottaDB mumps code. The ydbcompil executable will automatically run to compile the code Any compilation errors will show in the terminal window.
 
 # Additional Optional Setup
 
